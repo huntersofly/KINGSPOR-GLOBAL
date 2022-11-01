@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trirong", serif;
+  }
+nav{
+    height: 60px;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+#site-name{
+    flex: 1;
+}
+#site-name li {
+    font-size: 29px;
+    color: yellow;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+#ul-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13px;
+    flex: 2;
+}
+#review a{
+    color: red;
+}
+#review {
+    border-bottom: 2px solid red;
+}
+
+    ul li{
+        list-style-type: none;
+        font-size: 21px;
+        cursor: pointer;
+    }
+    ul li :hover{
+        color: yellow;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+    }
