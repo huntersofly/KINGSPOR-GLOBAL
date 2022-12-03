@@ -21,7 +21,7 @@ nav {
 
 #site-name li {
     font-size: 29px;
-    color: yellow;
+    color: red;
     padding-top: 10px;
     padding-left: 20px;
     display: flex;
@@ -49,7 +49,7 @@ ul li {
 }
 
 ul li :hover {
-    color: yellow;
+    color: red;
 }
 
 ul li a {
@@ -94,6 +94,7 @@ div {
     width: 80%;
     margin-top: 60px;
     flex-wrap: wrap;
+    padding: 60px;
 }
 
 .dir {

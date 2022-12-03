@@ -19,7 +19,7 @@ nav{
 }
 #site-name li {
     font-size: 29px;
-    color: yellow;
+    color: red;
     padding-top: 10px;
     padding-left: 20px;
     display: flex;
@@ -41,7 +41,7 @@ ul li{
         cursor: pointer;
 }
 ul li :hover{
-        color: yellow;
+        color: red;
 }
 ul li a{
         text-decoration: none;
